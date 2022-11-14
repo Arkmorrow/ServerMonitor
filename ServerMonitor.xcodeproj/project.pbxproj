@@ -45,6 +45,7 @@
 		EC4F520029229873007CFBDE /* ServerMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServerMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4F520429229873007CFBDE /* ServerMonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerMonitorUITests.swift; sourceTree = "<group>"; };
 		EC4F520629229873007CFBDE /* ServerMonitorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerMonitorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC4F521329229CA0007CFBDE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 		EC4F51DC29229870007CFBDE = {
 			isa = PBXGroup;
 			children = (
+				EC4F521329229CA0007CFBDE /* README.md */,
 				EC4F51E729229871007CFBDE /* ServerMonitor */,
 				EC4F51F929229873007CFBDE /* ServerMonitorTests */,
 				EC4F520329229873007CFBDE /* ServerMonitorUITests */,
