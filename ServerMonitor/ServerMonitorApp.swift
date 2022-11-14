@@ -12,6 +12,8 @@ struct ServerMonitorApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+        }.commands {
+            SidebarCommands() // 1
         }
     }
 }

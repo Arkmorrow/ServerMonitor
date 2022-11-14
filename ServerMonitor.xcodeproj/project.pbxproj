@@ -14,6 +14,7 @@
 		EC4F51FB29229873007CFBDE /* ServerMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F51FA29229873007CFBDE /* ServerMonitorTests.swift */; };
 		EC4F520529229873007CFBDE /* ServerMonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F520429229873007CFBDE /* ServerMonitorUITests.swift */; };
 		EC4F520729229873007CFBDE /* ServerMonitorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F520629229873007CFBDE /* ServerMonitorUITestsLaunchTests.swift */; };
+		EC4F52182922A029007CFBDE /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F52172922A029007CFBDE /* SideBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		EC4F520429229873007CFBDE /* ServerMonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerMonitorUITests.swift; sourceTree = "<group>"; };
 		EC4F520629229873007CFBDE /* ServerMonitorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerMonitorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EC4F521329229CA0007CFBDE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EC4F52172922A029007CFBDE /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		EC4F51E729229871007CFBDE /* ServerMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				EC4F521429229FF8007CFBDE /* Navigator */,
 				EC4F51E829229871007CFBDE /* ServerMonitorApp.swift */,
 				EC4F51EA29229871007CFBDE /* ContentView.swift */,
 				EC4F51EC29229873007CFBDE /* Assets.xcassets */,
@@ -129,6 +132,22 @@
 				EC4F520629229873007CFBDE /* ServerMonitorUITestsLaunchTests.swift */,
 			);
 			path = ServerMonitorUITests;
+			sourceTree = "<group>";
+		};
+		EC4F521429229FF8007CFBDE /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				EC4F52152922A00E007CFBDE /* SideBar */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		EC4F52152922A00E007CFBDE /* SideBar */ = {
+			isa = PBXGroup;
+			children = (
+				EC4F52172922A029007CFBDE /* SideBarView.swift */,
+			);
+			path = SideBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +282,7 @@
 			files = (
 				EC4F51EB29229871007CFBDE /* ContentView.swift in Sources */,
 				EC4F51E929229871007CFBDE /* ServerMonitorApp.swift in Sources */,
+				EC4F52182922A029007CFBDE /* SideBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
